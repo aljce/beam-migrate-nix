@@ -1,0 +1,1 @@
+nix-shell -p 'import ./default.nix { package = "beam-migrate-cli"; allow-shell = false; }'
