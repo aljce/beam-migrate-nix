@@ -9,11 +9,13 @@ category:            Network
 build-type:          Simple
 cabal-version:       >=1.10
 
-library
-  exposed-modules:     Lib
+executable app
+  main-is:             Main.hs
   build-depends:       base >=4.10 && <4.11
-                     , beam-core     == 0.5.*
-                     , beam-postgres == 0.1.*
-                     , beam-migrate  == 0.1.*
-  hs-source-dirs:      src
+                     , bytestring        == 0.10.*
+                     , text              == 1.2.*
+                     , postgresql-simple == 0.5.*
+                     , beam-core         == 0.6.*
+                     , beam-postgres     == 0.2.*
+                     , beam-migrate      == 0.2.*
   default-language:    Haskell2010
