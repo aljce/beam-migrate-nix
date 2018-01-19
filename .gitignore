@@ -1,0 +1,10 @@
+/dist
+/dist-newstyle
+*.swp
+/.cabal-sandbox
+/cabal.sandbox.config
+result*
+.agda-lib
+*.agdai
+config.yaml
+.dir-locals.el
